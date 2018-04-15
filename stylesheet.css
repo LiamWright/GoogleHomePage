@@ -8,7 +8,7 @@
   	margin-left: auto;
 	margin-right: auto;
 }
-#logo, #search-bar {
+#logo, #search-bar, #search-btns {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -21,4 +21,15 @@
 	border: none;
 	outline-width: medium;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#search-btns {
+	display: inline-flex;
+	width: 600px;
+}
+
+#search-btns button {
+	margin-left: 5px;
+	
+    
 }
