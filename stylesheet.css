@@ -47,10 +47,30 @@
 #header #header-elements{
 	display: inline-flex;
 	float: right;
+	margin-right: 30px;
+    margin-top: 15px;
 	
 }
 #header #header-elements p, #header #header-elements img, #header #header-elements button {
 	float: right;
 	padding-right: 15px;
 	margin: 0;
+}
+#footer {
+    position: fixed;
+    bottom: 0;
+}
+#footer-bottom-left, #footer-bottom-right {
+	display: inline-flex;
+}
+#footer-bottom-left {
+	float: left;
+}
+#footer-bottom-right {
+	float: right;
+}
+#footer p 
+{
+	padding-left: 15px;
+	padding-right: 15px;
 }
