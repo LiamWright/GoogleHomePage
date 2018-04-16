@@ -1,5 +1,5 @@
 #container {
-	position: relative;
+	position: fixed;
 	height: 100%;
 	width: 100%;
 }
@@ -26,10 +26,31 @@
 #search-btns {
 	display: inline-flex;
 	width: 600px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-top: 20px;
 }
 
 #search-btns button {
 	margin-left: 5px;
+  
+}
+#GoogleSearchButton {
+	position: absolute;
+	left: 150px;
+}
+#FeelingLuckyButton {
+	position: absolute;
+	left: 300px;
+}
+#header #header-elements{
+	display: inline-flex;
+	float: right;
 	
-    
+}
+#header #header-elements p, #header #header-elements img, #header #header-elements button {
+	float: right;
+	padding-right: 15px;
+	margin: 0;
 }
