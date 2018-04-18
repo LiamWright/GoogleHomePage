@@ -44,11 +44,29 @@
 	position: absolute;
 	left: 300px;
 }
+#header button {
+    background-image: -webkit-linear-gradient(top, rgb(67, 135, 253), rgb(70, 131, 234));
+    border: 1px solid #4285f4;
+	font-weight: bold;
+	outline: none;
+	padding-left: 12px;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: rgb(66, 133, 244);
+    color: rgb(255,255,255);
+    background-clip: border-box;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    padding-right: 12px;
+}
 #header #header-elements{
 	display: inline-flex;
 	float: right;
 	margin-right: 30px;
     margin-top: 15px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
 	
 }
 #header #header-elements p, #header #header-elements img, #header #header-elements button {
