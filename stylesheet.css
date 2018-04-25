@@ -2,6 +2,41 @@
 	position: fixed;
 	height: 100%;
 	width: 100%;
+	font-family: arial, sans-serif;
+}
+#header button {
+    background-image: -webkit-linear-gradient(top, rgb(67, 135, 253), rgb(70, 131, 234));
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    padding-left: 12px;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: rgb(66, 133, 244);
+    color: rgb(255,255,255);
+    background-color: rgb(66, 133, 244);
+    background-clip: border-box;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    padding-right: 12px;
+}
+#header #header-elements{
+    display: inline-flex;
+    float: right;
+    margin-right: 30px;
+    margin-top: 15px;
+    font-size: 13px;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+	
+}
+#header p {
+	display: inline;
+}
+#header img {
+	height: 20px;
 }
 #ctr-el{
   	margin-top: 13.5%;
@@ -15,8 +50,11 @@
 	
 }
 #search-bar {
+	font-size: 16px;
 	margin-top: 20px;
-	padding-top: 20px;
+	height: 40px;
+	text-align: left;
+	text-indent: 20px;
 	width: 600px;
 	border: none;
 	outline-width: medium;
@@ -30,45 +68,30 @@
 	left: 0;
 	right: 0;
 	margin-top: 20px;
+
 }
 
 #search-btns button {
 	margin-left: 5px;
+	border: 1px solid rgb(242, 242, 242);
+	border-radius: 2px;
+	color: rgb(117, 117, 117);
+	background-color: rgb(248, 248, 248);
+	height: 34px;
+	font-weight: 700;
+	font-size: 13px;
+	margin: 0;
   
 }
 #GoogleSearchButton {
 	position: absolute;
-	left: 150px;
+	left: 175px;
 }
 #FeelingLuckyButton {
 	position: absolute;
 	left: 300px;
 }
-#header button {
-    background-image: -webkit-linear-gradient(top, rgb(67, 135, 253), rgb(70, 131, 234));
-    border: 1px solid #4285f4;
-	font-weight: bold;
-	outline: none;
-	padding-left: 12px;
-    border-radius: 2px;
-    border-style: solid;
-    border-color: rgb(66, 133, 244);
-    color: rgb(255,255,255);
-    background-clip: border-box;
-    font-weight: 700;
-    line-height: 28px;
-    text-align: left;
-    padding-right: 12px;
-}
-#header #header-elements{
-	display: inline-flex;
-	float: right;
-	margin-right: 30px;
-    margin-top: 15px;
-    font-family: arial, sans-serif;
-    font-size: 13px;
-	
-}
+
 #header #header-elements p, #header #header-elements img, #header #header-elements button {
 	float: right;
 	padding-right: 15px;
@@ -101,4 +124,6 @@
 	border-top-color: rgb(228, 228, 228);
 	border-top-style: solid;
 	border-top-width: 1px;
+	font-size: 13.3px;
 }
+
